@@ -145,4 +145,3 @@ router.all('/products/buy', function(req, res, next) {
 
 
 
-module.exports = router;
