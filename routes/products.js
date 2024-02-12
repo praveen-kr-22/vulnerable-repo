@@ -1,4 +1,3 @@
-var express = require('express');
 var check_logged = require("./login_check");
 var url = require("url");
 var db_products = require("../model/products");
