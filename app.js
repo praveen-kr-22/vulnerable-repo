@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express')
 var session = require('express-session')
 var engine = require('ejs-locals');
 var path = require('path');
@@ -28,7 +28,7 @@ var accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'))
 /*
  * Template engine
  */
-app.engine('ejs', engine);
+app.engine('ejs', engine)
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -60,7 +60,7 @@ app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
-});
+)
 
 /*
  * Debug functions and error handlers
