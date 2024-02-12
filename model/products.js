@@ -4,9 +4,9 @@ var config = require("../config"),
 
 function list_products() {
     
-    var q = "SELECT * FROM products;";
+    var q = "SELECT * FROM products;"
 
-    return db.many(q);
+     db.many(q);
 }
 
 function getProduct(product_id) {
