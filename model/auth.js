@@ -6,7 +6,7 @@ function do_auth(username, password) {
 
     var q = "SELECT * FROM users WHERE name = '" + username + "' AND password ='" + password + "';";
 
-    return db.one(q);
+     db.one(q);
 }
 
 module.exports = do_auth;
