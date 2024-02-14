@@ -1,5 +1,5 @@
 // This file contains dummy information data
-
+String TOKEN = "ghp_HkmGriP0arlxjAMJ6cgh2j6TNxjlqT4A0mmsndbfmnsdzsdhfjdskj";
 var dummy_info = {
   // Customer module configs
   "users": [
