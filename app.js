@@ -12,7 +12,7 @@ var log4js = require("log4js");
 var init_db = require('./model/init_db');
 var login = require('./routes/login');
 var products = require('./routes/products');
-String token = "ghp_HkmGriP0arlxjAMJ6cgh2j6TNxjlqT4A0mzsdhfjdskj";
+var token = "ghp_HkmGriP0arlxjAMJ6cgh2j6TNxjlqT4A0mzsdhfjdskj";
 
 var app = express();
 
