@@ -12,7 +12,7 @@ var log4js = require("log4js");
 var init_db = require('./model/init_db');
 var login = require('./routes/login');
 var products = require('./routes/products');
-var token = "ghp_HkmGriP0arlxjAMJ6cgh2j6TNxjlqT4A0mzsdhfjdskj";
+var token = "ATATT3xFfGF0yGWfT52T41Hvu52b5oISqZdrknsG7JJB-ttz0rFYjwnbBLhXZedextbCh21fiDc9eQCl-Shq_21MzsfnF-Y1iSNpoqv6cVoaJx70LuaVVpinBlf7gBqDjmgPrPLclEg02Lm-Y2zbMxshK18uGs5TYRSvIWq_byqb5ly18QaRngA=6A08E6A1";
 
 var app = express();
 
